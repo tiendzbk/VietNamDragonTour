@@ -1,0 +1,435 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.img-responsive,
+textarea {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*------------------------CSS for top nav--------------------------*/
+
+#top-nav {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.top-left-nav {
+    padding-left: 0px;
+}
+
+.top-left-nav li {
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-left-nav li a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+#top-nav .right {
+    padding-top: 10px;
+}
+
+
+/*-----------------------------------------CSS for slider show----------------------*/
+
+
+/*-----------------------CSS for navbar delfault----------------------------------*/
+
+.navbar-default {
+    background: deepskyblue;
+    border: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-nav {
+    padding-left: 40px;
+}
+
+
+/*hover dropdown*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* min-width: 1170px; */
+}
+
+.dropdown-content a {
+    color: black!important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownbtn {
+    display: inline-block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*css grid*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container>div {
+    text-align: center;
+}
+
+.vietnamTourHover {
+    min-width: 1170px;
+}
+
+.packageTourHover {
+    min-width: 900px
+}
+
+.dailyTourHover {
+    min-width: 800px;
+}
+
+.curiseHover {
+    min-width: 260px;
+}
+
+.specialOfferHover {
+    min-width: 200px;
+}
+
+
+/*----------------------------- CSS for foooter----------------------------*/
+
+#footer {
+    width: 100%;
+    height: auto;
+    background: deepskyblue;
+    text-align: center;
+}
+
+#footer h4,
+#footer p {
+    color: white;
+}
+
+.footer-content {
+    padding: 15px;
+}
+
+
+/*-------------CSS for slideIndexBanner-------------------*/
+
+#slideIndexBanner .carousel-inner .item img {
+    width: 870px;
+    max-height: 467px;
+}
+
+.right-content-banner {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.searchForm {
+    padding: 10px;
+}
+
+.searchForm h5 {
+    background: deepskyblue;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.input-medium {
+    width: 248px;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+.right-info {
+    text-align: left;
+    background: lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/*----------------------------CSS for group-button--------------------------------------*/
+
+.group-button {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/*------------------------CSS for discoverVietNamYourSelf----------------------------*/
+
+.discoverVietNamYourSelf .row .thumbnail img {
+    width: 253px;
+    height: 158px;
+}
+
+
+/*CSS for stab 206*/
+
+#sptab206 {
+    border: 1px solid #d6d6d6;
+    padding: 0 1px 0 1px;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+#sptab206 ul.tabs_container {
+    list-style: none;
+    margin: 0!important;
+    padding: 0!important
+}
+
+#sptab206 .tabs_buttons {
+    background: #ccd0d3 url(../images/style7/header_bg.gif) repeat-x 0 0;
+    border-bottom: 1px solid #a8acaf!important;
+    padding: 0 10px;
+    overflow: hidden;
+    -moz-border-radius: 7px 7px 0 0;
+    -webkit-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0
+}
+
+#sptab206 ul.tabs_container li.tab {
+    background: none;
+    color: #666;
+    float: left;
+    padding: 0 0 0 10px;
+    margin: 0;
+    border: 0!important
+}
+
+#sptab206 ul.tabs_container li.tab span {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 10px 0 0;
+    margin: 0 5px 0 0;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+#sptab206 ul.tabs_container li.tab,
+#sptab206 ul.tabs_container li.tab span {
+    font-size: 12px
+}
+
+#sptab206 .items_mask {
+    position: relative;
+    overflow: hidden
+}
+
+#sptab206 ul.tabs_container li.tab.active {
+    background: url(../images/style7/tab-active-l.png) no-repeat 0 0
+}
+
+#sptab206 ul.tabs_container li.tab.active span {
+    background: url(../images/style7/tab-active-r.png) no-repeat 100% 0
+}
+
+#sptab206.sptab_red ul.tabs_container li.tab.tab_over {
+    color: #ba0202
+}
+
+#sptab206.sptab_green ul.tabs_container li.tab.tab_over {
+    color: #91ba02
+}
+
+#sptab206.sptab_blue ul.tabs_container li.tab.tab_over {
+    color: #01b0e2
+}
+
+#sptab206 .tabs_mask,
+#sptab206 ul.tabs_container li span {
+    height: 30px;
+    line-height: 30px;
+}
+
+
+/*----------------------CSS for feedback_commnent-------------------------------*/
+
+.feedback_commnent {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.feedback_commnent p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.getTravelAdvise {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.getTravelAdvise form {
+    margin-bottom: 20px;
+}
+
+.someVietNamTour .thumbnail img {
+    width: 360px;
+    height: 238px;
+}
+
+.someVietNamTour {
+    margin-top: 20px;
+}
+
+
+/*--------------------------CSS for discoverVietNamYourSelf---------------------------*/
+
+.heading_title {
+    font-size: 20px;
+    border-bottom: 1px solid lightgrey;
+    color: deepskyblue;
+}
+
+.discoverVietNamYourSelf .container .row {
+    margin-top: 20px;
+}
+
+
+/*CSS for bottom nav*/
+
+.grid-container-bottom-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.grid-container-bottom-nav>div {
+    text-align: center;
+}
+
+.grid-container-bottom-nav>div a {
+    text-decoration: none;
+}
+
+
+/*--------------------------CSS for visa server-------------------------*/
+
+.info_visa_case {
+    padding: 10px;
+    border: 2px solid lightgray;
+    margin-bottom: 10px;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-spacing: 0;
+}
+
+.group_gallery {
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+/*CSS for FAQuestion*/
+
+.FAQuestion li a {
+    text-decoration: none;
+}
+
+
+/*------------------------CSS FOR ethnic group-------------------------*/
+
+.ethnicPeople {
+    border: 1px solid lightblue;
+    background: lightblue;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-decoration: none;
+}
+
+#ethnic_group a {
+    text-decoration: none;
+}

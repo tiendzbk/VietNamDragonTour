@@ -1,0 +1,87 @@
+<div id="ChamPeople">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-9">
+                {{#each champp}}
+                <div class="heading_title">
+                    <h3>{{this.nameEthnic}}</h3>
+                </div>
+                <img src="{{this.imagePath}}" alt="" class="img-responsive">
+                <p>{{this.introductEthnic}}</p>
+                <h4>THE UNIQUE CHAM CULTURE</h4>
+                <p>{{this.culture}}</p>
+                {{/each}}
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+                <h4 style="border-bottom : 1px dashed  black">CATEGORY TOURS</h4>
+                <select name="maximenuckdropselect" class="input-medium" onchange="top.location.href=this.options[this.selectedIndex].value"
+                    class="">
+                    <option value="/">Home</option>
+                    <option value="/vietnam-tours">VietNam Tours</option>
+                    <option value="/vietnam-tours/daily-tours">- Daily Tours</option>
+                    <option value="/vietnam-tours/vietnam-package-tours">- Vietnam Package Tours</option>
+                    <option value="/vietnam-tours/vietnam-adventure-tours">- Adventure Tours</option>
+                    <option value="/vietnam-tours/halong-bay-cruise">- Halong bay cruises</option>
+                    <option value="/vietnam-tours/mekong-delta-tours">- Mekong Delta Tours</option>
+                    <option value="/vietnam-tours/opentour-budget-travel">- Opentour &amp; Budget Travel</option>
+                    <option value="/vietnam-tours/exclusive-tours">- Exclusive Tours</option>
+                    <option value="/vietnam-tours/muslam-tours">- Muslam Tours</option>
+                    <option value="/vietnam-tours/cycling-trekking-tours">- Cycling &amp; Trekking Tours</option>
+                    <option value="/vietnam-tours/vietnam-golf-holidays">- Golf Holidays</option>
+                    <option value="/vietnam-tours/eco-tours">- Eco Tours</option>
+                    <option value="/vietnam-tours/vietnam-beach-holidays">- Beach Holidays</option>
+                    <option value="/vietnam-tours/vietnam-culinary-tours">- Culinary Tours</option>
+                    <option value="/vietnam-tours/indochia-tours">- Indochina Tours</option>
+                    <option value="/vietnam-tours/responsible-travel">- Responsible Travel</option>
+                    <option value="/package-tours">Package Tours</option>
+                    <option value="/package-tours/vietnam-tours">- Vietnam Tours</option>
+                    <option value="/package-tours/indochina-tours">- Indochina Tours</option>
+                    <option value="/package-tours/cambodia-tours">- Cambodia Tours</option>
+                    <option value="/package-tours/laos-tours">- Laos Tours</option>
+                    <option value="/package-tours/myanmar-tours">- Myanmar Tours</option>
+                    <option value="/daily-tours">Daily Tours</option>
+                    <option value="/daily-tours/daily-tours-from-hanoi">- Daily Tours from Hanoi</option>
+                    <option value="/daily-tours/daily-tours-from-hochiminh-city">- Daily Tours from Hochiminh city</option>
+                    <option value="/daily-tours/daily-tours-from-hoian">- Daily Tours from Hoian</option>
+                    <option value="/daily-tours/daily-tours-from-danang">- Daily Tours from Danang</option>
+                    <option value="/daily-tours/daily-tours-from-nhatrang">- Daily Tours from Nhatrang</option>
+                    <option value="/daily-tours/daily-tours-from-hue">- Daily Tours from Hue</option>
+                    <option value="/daily-tours/daily-tours-from-da-lat">- Daily Tours From DaLat</option>
+                    <option value="/cruises">Cruises</option>
+                    <option value="/cruises/cruise-halong-bay">- Cruise Halong Bay</option>
+                    <option value="/cruises/cruise-mekong-delta-tours">- Cruise Mekong Delta Tours</option>
+                    <option value="/cruises/boat-trip-hoian-river">- Boat trip Hoian River</option>
+                    <option value="/cruises/cruise-nhatrang">- Cruise Nhatrang</option>
+                    <option value="/cruises/cruise-cambodia">- Cruise Cambodia</option>
+                    <option value="/cruises/cruise-laos">- Cruise Laos</option>
+                    <option value="/adventures">Adventures</option>
+                    <option value="/exclusive-tours">Exclusive Tours</option>
+                    <option value="/exclusive-tours/home-stay-thien-phuc">- Home stay Thien Phuc</option>
+                    <option value="/exclusive-tours/tanmai-island-on-black-river-hoabinh">- TanMai Island on Black River HoaBinh</option>
+                    <option value="/exclusive-tours/na-hang-chiem-hoa">- Na Hang – Chiem Hoa</option>
+                    <option value="/exclusive-tours/eco-red-river-tour">- Eco Red River tour</option>
+                    <option value="/open-tours">Open Tours</option>
+                    <option value="/special-offers">Special offers</option>
+                    <option value="/special-offers/vietnam-tour-set-departure-12-days">- Vietnam Tour set departure 12 days</option>
+                    <option value="/special-offers/vietnam-tour-set-departure-14-days">- Vietnam Tour set departure 14 days</option>
+                    <option value="/special-offers/vietnam-tour-set-departure-16-days">- Vietnam Tour set departure 16 days</option>
+                </select>
+
+                <div class="group_gallery">
+                    <p>
+                        <strong> Galleries</strong>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="">Photos Gallery</a>
+                        </li>
+                        <li>
+                            <a href="">Clients photos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
